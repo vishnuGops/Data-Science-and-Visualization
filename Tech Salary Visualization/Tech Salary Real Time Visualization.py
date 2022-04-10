@@ -16,6 +16,8 @@ plt.plot(ages, js_salaries, color='#21239c', label='JavaScript')
 plt.plot(ages, dev_salaries, color='#15b034',
          linestyle='--', label='All Devs')
 
+plt.pie(dev_salaries, py_salaries, js_salaries)
+
 plt.legend()
 
 plt.title('Median Salary (USD) by Age')
